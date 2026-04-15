@@ -1,0 +1,10 @@
+The results show that the CPU runtime increases a lot
+as the grid size gets bigger, going from about 538ms
+to more than 156000 ms. This means the CPU scales
+poorly with problem size. On the other hand, the GPU
+runtime stays almost the same (around 2100 ms) for all
+cases, which shows it handles larger grids much better.
+Even though the GPU is slower for the smallest case,
+it becomes much more efficient as the problem size increases.
+So overall, the GPU is better for large simulations,
+while the CPU is only faster for small ones.

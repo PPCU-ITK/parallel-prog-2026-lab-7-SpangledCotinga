@@ -1,0 +1,10 @@
+Runtime:    2101.93ms    Nx, Ny times x: 1
+
+Runtime:    2107.54ms   Nx, Ny times x: 4
+
+Runtime:    2103.94ms   Nx, Ny times x: 8
+
+Runtime:    2108.26ms    Nx, Ny times x: 16
+
+I multiplied the initial values of Nx and Ny before each compilation and run like the homework description said
+and measured teh runtime of the main loop.
